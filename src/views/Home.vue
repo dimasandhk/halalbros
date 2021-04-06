@@ -37,7 +37,7 @@ export default {
       { path: "/doa-harian", title: "Doa Doa Harian" },
       { path: "/kisah-nabi", title: "Kisah 25 Nabi" },
       { path: "/niat-sholat", title: "Niat Sholat" },
-      { path: "/", title: "Bacaan Sholat" },
+      { path: "/bacaan-sholat", title: "Bacaan Sholat" },
       { path: "/", title: "Jadwal Sholat Harian" },
       { path: "/", title: "Al Quran Lengkap" },
       { path: "/", title: "Doa Doa Tahlil" },

@@ -5,6 +5,7 @@ import Asmaul from "../views/Asmaul.vue";
 import DoaHarian from "../views/DoaHarian.vue";
 import Kisah from "../views/Kisah.vue";
 import NiatSolat from "../views/NiatSolat.vue";
+import BacaanSolat from "../views/BacaanSolat.vue";
 
 const routes = [
   { path: "/", name: "Home", component: Home },
@@ -13,6 +14,7 @@ const routes = [
   { path: "/doa-harian", component: DoaHarian },
   { path: "/kisah-nabi", component: Kisah },
   { path: "/niat-sholat", component: NiatSolat },
+  { path: "/bacaan-sholat", component: BacaanSolat },
 ];
 
 const router = createRouter({
