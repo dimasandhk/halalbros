@@ -3,7 +3,7 @@
     <div class="container">
       <h3 class="text-center">{{ title }}</h3>
       <div class="row justify-content-center mt-5">
-        <div class="col-12 col-md-12 col-lg-8">
+        <div class="col-12 col-md-12 col-lg-6">
           <p class="text-center">
             HalalBros adalah sebuah Web Aplikasi muslim yang menyediakan
             bermacam-macam fitur seperti Doa Harian, Kisah 25 Nabi, Bacaan
@@ -25,10 +25,12 @@
       </div>
     </div>
   </section>
+  <About class="abt" />
 </template>
 
 <script>
 /* eslint-disable */
+import About from "./About";
 export default {
   data: () => ({
     title: "👌 HalalBros",
@@ -42,11 +44,15 @@ export default {
       { path: "/", title: "Jadwal Sholat Harian" },
     ],
   }),
+  components: {
+    About,
+  },
 };
 </script>
 
 <style lang="scss">
-.home {
+.abt {
+  margin-top: 80px;
   margin-bottom: 100px;
 }
 </style>
