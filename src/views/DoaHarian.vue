@@ -1,7 +1,6 @@
 <template>
   <section class="doa-harian mt-5">
-    <h3 class="text-center">{{ titleJudul }}</h3>
-    <HomeButton />
+    <HeaderPage :msg="titlePage" />
     <div class="row mt-5">
       <div
         class="col-12 col-md-12 col-lg-12"
@@ -30,7 +29,7 @@
 <script>
 export default {
   data: () => ({
-    titleJudul: "👌 HalalBros - Doa Harian",
+    titlePage: "👌 HalalBros - Doa Harian",
     arrDoaHarian: [],
   }),
   created: async function () {

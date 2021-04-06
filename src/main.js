@@ -1,13 +1,8 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./assets/scss/_global.scss";
-import Button from "./assets/components/Button.vue";
 import router from "./router/index.js";
-import HomeButton from "./assets/components/ButtonHome.vue";
+import HeaderPage from "./assets/components/HeaderPage";
 /* eslint-disable */
 
-createApp(App)
-  .use(router)
-  .component("Button", Button)
-  .component("HomeButton", HomeButton)
-  .mount("#app");
+createApp(App).use(router).component("HeaderPage", HeaderPage).mount("#app");

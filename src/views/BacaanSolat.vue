@@ -1,7 +1,6 @@
 <template>
   <section class="bacaan-sholat mt-5">
-    <h3 class="text-center">{{ titleJudul }}</h3>
-    <HomeButton />
+    <HeaderPage :msg="titlePage" />
     <div class="row mt-5">
       <div
         class="col-12 col-md-12 col-lg-12"
@@ -30,7 +29,7 @@
 <script>
 export default {
   data: () => ({
-    titleJudul: "👌 HalalBros - Bacaan Sholat",
+    titlePage: "👌 HalalBros - Bacaan Sholat",
     arrBacaan: [],
   }),
   created: async function () {

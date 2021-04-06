@@ -1,7 +1,6 @@
 <template>
   <section class="asmaul mt-5">
-    <h3 class="text-center">{{ title }}</h3>
-    <HomeButton />
+    <HeaderPage :msg="titlePage" />
     <div class="row mt-5">
       <div
         class="col-12 col-md-6 col-lg-3"
@@ -24,7 +23,7 @@
 <script>
 export default {
   data: () => ({
-    title: "👌 HalalBros - Asmaul Husna",
+    titlePage: "👌 HalalBros - Asmaul Husna",
     listAsmaulHusna: [],
     urlAPI: "https://islamic-api-zhirrr.vercel.app/api/asmaulhusna", // Api by github.com/Zhirr
     errorMessage: "",

@@ -1,7 +1,6 @@
 <template>
   <section class="niat-sholat mt-5">
-    <h3 class="text-center">{{ titleJudul }}</h3>
-    <HomeButton />
+    <HeaderPage :msg="titlePage" />
     <div class="row mt-5 justify-content-center">
       <div
         class="col-12 col-md-12 col-lg-6"
@@ -30,7 +29,7 @@
 <script>
 export default {
   data: () => ({
-    titleJudul: "👌 HalalBros - Niat Sholat",
+    titlePage: "👌 HalalBros - Niat Sholat",
     arrObject: [],
   }),
   created: async function () {

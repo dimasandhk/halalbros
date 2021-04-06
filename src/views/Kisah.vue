@@ -1,7 +1,6 @@
 <template>
   <section class="kisah mt-5">
-    <h3 class="text-center">{{ titleJudul }}</h3>
-    <HomeButton />
+    <HeaderPage :msg="titlePage" />
     <div class="row mt-5">
       <div
         class="col-12 col-md-6 col-lg-3"
@@ -72,7 +71,7 @@
 <script>
 export default {
   data: () => ({
-    titleJudul: "👌 HalalBros - Kisah Nabi",
+    titlePage: "👌 HalalBros - Kisah Nabi",
     arrKisah: [],
   }),
 
