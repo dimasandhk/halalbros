@@ -33,7 +33,7 @@ export default {
   data: () => ({
     title: "👌 HalalBros",
     listApi: [
-      { path: "/asmaul", title: "Asmaul Husna" },
+      { path: "/asmaul", title: "Asm Husna" },
       { path: "/doa-harian", title: "Doa Doa Harian" },
       { path: "/kisah-nabi", title: "Kisah 25 Nabi" },
       { path: "/", title: "Niat Sholat" },
