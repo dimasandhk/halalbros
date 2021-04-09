@@ -25,9 +25,8 @@ export default {
   data: () => ({
     credit: [
       { msg: "Made by Dimas Andhika Diputra" },
-      { msg: "Api by github.com/Zhirr (71%)" },
+      { msg: "Api by github.com/Zhirr (83%)" },
       { msg: "Api by github.com/bachors (Al Quran)" },
-      { msg: "Api by github.com/lakuapik (Jadwal)" },
     ],
   }),
 };
