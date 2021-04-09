@@ -6,6 +6,7 @@ import DoaHarian from "../views/DoaHarian.vue";
 import Kisah from "../views/Kisah.vue";
 import NiatSolat from "../views/NiatSolat.vue";
 import BacaanSolat from "../views/BacaanSolat.vue";
+import Alquran from "../views/Alquran.vue";
 
 const routes = [
   { path: "/", name: "Home", component: Home },
@@ -15,6 +16,7 @@ const routes = [
   { path: "/kisah-nabi", component: Kisah },
   { path: "/niat-sholat", component: NiatSolat },
   { path: "/bacaan-sholat", component: BacaanSolat },
+  { path: "/alquran", component: Alquran },
 ];
 
 const router = createRouter({

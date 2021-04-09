@@ -1,7 +1,7 @@
 <template>
   <section class="kisah mt-5">
     <HeaderPage :msg="titlePage" />
-    <div class="row mt-5">
+    <RowPage>
       <div
         class="col-12 col-md-6 col-lg-3"
         v-for="{ nama, id, tempat, tahun, usia } of arrKisah"
@@ -28,7 +28,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </RowPage>
   </section>
   <!-- Modal -->
   <div

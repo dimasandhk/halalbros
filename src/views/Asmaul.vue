@@ -1,7 +1,7 @@
 <template>
   <section class="asmaul mt-5">
     <HeaderPage :msg="titlePage" />
-    <div class="row mt-5">
+    <RowPage class="justify-content-center">
       <div
         class="col-12 col-md-6 col-lg-3"
         v-for="{ latin, id, arab, TID, TEN } in listAsmaulHusna"
@@ -16,7 +16,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </RowPage>
   </section>
 </template>
 

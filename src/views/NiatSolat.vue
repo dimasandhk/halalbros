@@ -1,7 +1,7 @@
 <template>
   <section class="niat-sholat mt-5">
     <HeaderPage :msg="titlePage" />
-    <div class="row mt-5 justify-content-center">
+    <RowPage class="justify-content-center">
       <div
         class="col-12 col-md-12 col-lg-6"
         v-for="{ id, nama, arab, latin, arti } of arrObject"
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </RowPage>
   </section>
 </template>
 

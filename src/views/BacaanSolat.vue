@@ -1,7 +1,7 @@
 <template>
   <section class="bacaan-sholat mt-5">
     <HeaderPage :msg="titlePage" />
-    <div class="row mt-5">
+    <RowPage>
       <div
         class="col-12 col-md-12 col-lg-12"
         v-for="{ id, nama, arab, latin, arti } of arrBacaan"
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </RowPage>
   </section>
 </template>
 

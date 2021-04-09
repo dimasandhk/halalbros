@@ -1,7 +1,7 @@
 <template>
   <section class="doa-harian mt-5">
     <HeaderPage :msg="titlePage" />
-    <div class="row mt-5">
+    <RowPage>
       <div
         class="col-12 col-md-12 col-lg-12"
         v-for="{ title, arab, latin, arti, id } of arrDoaHarian"
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </RowPage>
   </section>
 </template>
 

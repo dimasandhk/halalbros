@@ -33,8 +33,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.list-credit {
-  list-style: none;
-}
-</style>
+<style lang="scss"></style>
