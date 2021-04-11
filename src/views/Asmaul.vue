@@ -3,11 +3,11 @@
     <HeaderPage :msg="titlePage" />
     <RowPage class="justify-content-center">
       <div
-        class="col-12 col-md-6 col-lg-3"
+        class="col-12 col-md-6 col-lg-3 mt-3"
         v-for="{ latin, id, arab, TID, TEN } in listAsmaulHusna"
         :key="id"
       >
-        <div class="card mt-3">
+        <div class="card">
           <div class="card-body">
             <h5 class="card-title">{{ latin }} ({{ id }})</h5>
             <h6 class="card-subtitle mb-2 text-muted">{{ arab }}</h6>
@@ -57,6 +57,9 @@ export default {
 
 <style lang="scss">
 .asmaul {
+  .card {
+    height: 100%;
+  }
   margin-bottom: 100px;
 }
 </style>
