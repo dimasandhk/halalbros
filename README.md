@@ -1,6 +1,6 @@
 # halalbros
 
-Currently the github pages doesn't working, and i don't know why
+You can see the demo on Production Environments <a>https://halalbros.vercel.app</a>
 
 ## Project setup
 
