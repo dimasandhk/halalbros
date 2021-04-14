@@ -7,7 +7,7 @@
         v-for="{ nama, id, tempat, tahun, usia } of arrKisah"
         :key="id"
       >
-        <div class="card mt-3">
+        <div class="card mt-3" data-aos="fade-up" data-aos-duration="700">
           <div class="card-body">
             <h5 class="card-title">{{ nama }} ({{ id + 1 }})</h5>
             <h6 class="card-subtitle text-muted">{{ tempat }}</h6>

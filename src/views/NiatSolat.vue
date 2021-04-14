@@ -7,7 +7,11 @@
         v-for="{ id, nama, arab, latin, arti } of arrObject"
         :key="id"
       >
-        <div class="card mt-3">
+        <div
+          class="card mt-3"
+          data-aos-duration="700"
+          :data-aos="id % 2 == 0 ? 'fade-left' : 'fade-right'"
+        >
           <div class="card-body">
             <h5 class="card-title">{{ nama }}</h5>
             <p class="card-text">

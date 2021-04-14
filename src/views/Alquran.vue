@@ -7,7 +7,7 @@
         v-for="({ id, nama, arti, asma, ayat }, i) of arrSurat"
         :key="i"
       >
-        <div class="card mt-3">
+        <div class="card mt-3" data-aos-duration="700" data-aos="fade-up">
           <div class="card-body">
             <h5 class="card-title">{{ nama }}</h5>
             <h6 class="card-subtitle mb-2 text-muted">Surat Ke {{ id }}</h6>

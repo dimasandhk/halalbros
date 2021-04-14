@@ -7,7 +7,11 @@
         v-for="{ title, arab, latin, arti, id } of arrDoaHarian"
         :key="id"
       >
-        <div class="card mt-3">
+        <div
+          class="card mt-3"
+          data-aos-duration="700"
+          :data-aos="id % 2 == 0 ? 'fade-right' : 'fade-left'"
+        >
           <div class="card-body">
             <h5 class="card-title">{{ title }}</h5>
             <p class="card-text">

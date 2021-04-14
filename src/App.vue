@@ -8,6 +8,8 @@
 /* eslint-disable */
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Home from "./views/Home";
 import About from "./views/About";
 
@@ -18,6 +20,11 @@ export default {
   components: {
     Home,
     About,
+  },
+  created() {
+    AOS.init({
+      once: true,
+    });
   },
 };
 </script>

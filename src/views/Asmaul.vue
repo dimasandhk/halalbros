@@ -7,7 +7,7 @@
         v-for="{ latin, id, arab, TID, TEN } in listAsmaulHusna"
         :key="id"
       >
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-duration="700">
           <div class="card-body">
             <h5 class="card-title">{{ latin }} ({{ id }})</h5>
             <h6 class="card-subtitle mb-2 text-muted">{{ arab }}</h6>
